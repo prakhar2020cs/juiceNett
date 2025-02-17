@@ -1575,3 +1575,812 @@ padding: 11px 16px;
     display: flex;
   }
 }
+@media (min-width: 1280px){
+  
+
+  .container {
+      margin: auto;
+      max-width: 1280px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+.appStoreLinks{
+  font-size: 10px;
+}
+
+.appStoreLinks span{
+  font-size: 13px;
+}
+
+  .aboutUs p{
+      font-size: 12px;
+  }
+
+  .nav .links{
+      gap: 5px;
+  }
+
+.mobile-app {
+  .container {
+    gap: 20px;
+  }
+}
+.ourFeatures {
+  .car-image {
+    top: 52%;
+  }
+
+  .Card-left-top {
+    margin-left: 50px;
+  }
+  .Card-right-top {
+    margin-right: 50px;
+  }
+
+  .floatingcard-img-container {
+    margin-bottom: 10px;
+  }
+}
+.products {
+  .Card h4 {
+    line-height: 0.75;
+    margin-bottom: 7px;
+  }
+  .Card {
+    padding: 12px;
+    gap: 13px;
+  }
+}
+
+.aboutUs {
+  .featureCard {
+    padding: 12px;
+  }
+}
+
+.impact {
+  .pros {
+    gap: 20px;
+  }
+  .container {
+    gap: 30px;
+  }
+}
+footer {
+  #footer-logo {
+    width: 110px;
+  }
+  .newsletter {
+      top: 12%;
+    padding: 14px 9px;
+    gap: 20px;
+  }
+  .newsletter h1 {
+    font-size: 28px;
+  }
+
+  .quick-links ul {
+    padding-inline-start: 0px;
+    gap: 10px;
+  }
+  .social-links ul {
+    padding-inline-start: 0px;
+    gap: 5px;
+  }
+
+  .logo {
+    gap: 25px;
+  }
+
+  .quick-links h2 {
+    margin-bottom: 10px;
+  }
+}
+}
+
+@media (max-width: 1000px) {
+
+.hero .appStoreLinks a , .appStoreLinks a{
+  gap: 10px;
+  padding: 7px;
+}
+.hero .appStoreLinks img , .appStoreLinks img{
+  width: 22px;
+}
+ 
+  .hero {
+    #scroll-icon{
+      width: 22px;
+    }
+
+      .sideLinks a img{
+          width: 17px;
+      }
+      .sideLinks img.vertical-line{
+          display: none;
+      }
+
+      #scroll-icon{
+          bottom: 6px;
+      }
+  }
+  .sideLinks {
+      gap: 7px}
+
+.nav {
+  .signUp {
+    margin-right: 6px;
+  }
+
+  #profile-icon {
+    margin-right: 6px;
+  }
+}
+
+.hero h1 {
+  max-width: 560px;
+}
+
+.hero h1,
+.hero h1 span {
+  font-size: 40px;
+}
+.nav {
+  font-size: 12px;
+
+  .icons img {
+    width: 15px;
+  }
+
+  .logo img {
+    width: 125px;
+    /* height: 36px; */
+  }
+
+  .signUp,
+  .shopNow {
+    font-size: 14px;
+    padding: 12px 14px;
+  }
+}
+
+.aboutUs {
+  padding: 0 0 130px;
+
+  #experience-12k {
+    position: absolute;
+    right: 27%;
+  }
+  h2{
+    justify-content: center;
+
+  }
+  .container h1{
+     text-align: center;  
+  }
+  .featureCard{
+    align-items: center;
+  }
+}
+
+.joinnow {
+  h3 {
+    font-size: 16px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+}
+
+.ourFeatures {
+  .ev-container {
+    gap: 95px;
+  }
+  .Card img {
+    width: 45px;
+  }
+}
+}
+
+@media (max-width: 800px) {
+
+.blogs h1, .products h1{
+  margin-bottom: 20px;
+  }
+
+h2 img{
+  width: 20px;
+}
+
+  .appStoreLinks a {
+      padding: 7px 8px;
+    }
+    .appStoreLinks img {
+      width: 20px;
+    }
+
+.container {
+  max-width: 90%;
+}
+
+h2:not(.quick-links h2, .social-links h2) {
+  margin-bottom: 0px !important;
+  font-size: 10px !important;
+}
+p,
+a {
+  font-size: 14px !important;
+}
+li {
+  font-size: 13px !important;
+}
+
+h1:not(.hero h1),
+h1 span:not(.hero h1 span) {
+  font-size: 38px !important;
+}
+
+header {
+  padding: 5px;
+}
+.hero {
+  .logo img {
+    width: 80px;
+  }
+  .text {
+    font-size: 9px;
+  }
+
+  h1,
+  h1 span {
+    max-width: 368px;
+    margin-bottom: 35px;
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 10px;
+  }
+  .appStoreLinks a {
+    padding: 7px 8px;
+  }
+  .appStoreLinks img {
+    width: 20px;
+  }
+
+  .sideSocialIcons img {
+    width: 16px;
+  }
+
+  #downloadJn {
+    margin-bottom: 11px;
+  }
+
+  .goGreen {
+    margin-bottom: 0px;
+  }
+}
+
+.mobile {
+  display: block;
+}
+.offcanvas-btn {
+  display: flex;
+}
+.nav {
+  .links,
+  .icons,
+  .buttons {
+    display: none;
+  }
+  .btn-close {
+    display: block;
+  }
+}
+.transforming {
+  margin-bottom: 40px;
+  h1 {
+    margin-bottom: 0px;
+  }
+  h3 {
+    font-size: 46px;
+  }
+  .perks {
+    flex-direction: column;
+    margin-inline: auto;
+    width: 50%;
+  }
+  .perk:nth-child(1) {
+    padding-top: 24px;
+  }
+  .perk {
+    padding: 22px 12px 0px 24px;
+  }
+}
+
+.discover {
+  h3{
+    font-size: 11px;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  .Card {
+    gap: 11px;
+    padding: 7px;
+    align-items: center;
+  }
+  .Card p {
+    text-align: center;
+  }
+
+  .Card svg {
+    width: 35px;
+  }
+}
+
+.aboutUs {
+
+  padding-bottom: 90px;
+  margin-bottom: 30px;
+
+  #experience-12k {
+    position: absolute;
+    right: 28%;
+    width: 15%;
+  }
+  h1{
+    margin-bottom: 17px;
+  }
+
+  h2{
+      justify-content: center;
+  }
+
+  .container {
+    .innovations {
+    gap: 40px;
+      margin-top: 30px;
+    }
+  }
+.featureCard{
+gap: 12px;
+padding: 10px;
+}
+
+
+}
+
+.mobile-app {
+  h1,
+  h2,p {
+    text-align: center;
+  }
+  .container {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  .mobile-app-text {
+    display: flex;
+    flex-direction: column;
+    order: -1;
+  }
+  .appStoreLinks {
+    align-self: center;
+  }
+  li{
+    align-items: center;
+    line-height: 1;
+  }
+}
+
+.ourFeatures {
+  padding: 30px 0px;
+  h1 {
+    margin-bottom: 17px;
+  }
+
+  .ev-container {
+    gap: 0;
+  }
+  .car-image {
+    top: 55%;
+  }
+  .Card-left-top {
+    margin-left: 120px;
+  }
+  .Card-right-top {
+    margin-right: 120px;
+  }
+  .card-container-right .Card-bottom {
+    align-self: center;
+  }
+
+  .Card h3 {
+    max-width: 120px;
+    font-size: 9px;
+  }
+  .Card p {
+    max-width: 100px;
+    font-size: 7px !important;
+  }
+
+  .floatingcard-img-container {
+    margin-bottom: 5px;
+  }
+  .floatingcard-img-container img {
+    width: 32px;
+  }
+}
+
+.joinnow {
+  padding: 30px 40px;
+  margin-bottom: 30px;
+  h1 {
+    margin-bottom: 25px;
+  }
+
+  h5 {
+    text-align: center;
+    font-size: 11px;
+  }
+  .row {
+    row-gap: 20px;
+  }
+
+  h4{
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+  }
+  .Card li{
+    justify-content: center;
+  }
+}
+
+.impact {
+  margin-bottom: 20px;
+h2{
+justify-content: center;
+}
+
+h1,p{
+  text-align: center;
+}
+  .pros {
+    gap: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+  h3 {
+    text-align: center;
+  }
+  #bigPara {
+    margin-bottom: 15px;
+  }
+}
+
+.products {
+  padding: 30px 0;
+
+  .container {
+    width: 56%;
+  }
+
+  h4,h3, p{
+    text-align: center;
+  }
+  .Card {
+    border-radius: 0 0 12px 12px;
+    padding: 12px;
+  }
+}
+.blogs {
+  padding-bottom: 75px;
+  h3, p {
+text-align: center;
+  }
+  a{
+    justify-content: center;
+  }
+  .container {
+    width: 80%;
+  }
+  padding-top: 30px;
+  .Card {
+    border-radius: 12px;
+  }
+}
+
+footer {
+  padding: 40px 0 10px 0;
+  .newsletter {
+    top: 19%;
+    padding: 9px 13px;
+  }
+
+  .newsletter h1 {
+    font-size: 17px !important;
+  }
+  .footer-content {
+    flex-direction: column;
+    gap: 34px;
+  }
+  .newsletter .input-mail input,
+  .newsletter .input-mail label {
+    font-size: 10px;
+  }
+
+  .logo {
+    gap: 10px;
+    margin: auto;
+  }
+  .quick-links ul,
+  .social-links ul {
+    justify-content: space-around;
+  }
+  .quick-links h2,
+  .social-links h2 {
+    margin-bottom: 7px;
+  }
+
+  .quick-links a,
+  .social-links a {
+    font-size: 12px !important;
+  }
+}
+
+.footer-bottom {
+  padding: 10px 0;
+}
+.footer-bottom-content h3 .footer-bottom-content a {
+  line-height: 1;
+}
+
+.footer-bottom-content h3 {
+  font-size: 12px;
+}
+
+.footer-bottom-content a {
+  font-size: 10px !important;
+}
+}
+
+@media (max-width: 593px) {
+  .container{
+    width: 97%;
+  }
+.ourFeatures {
+  .Card-left-top {
+    margin-left: 60px;
+  }
+  .Card-right-top {
+    margin-right: 60px;
+  }
+}
+}
+
+@media (max-width: 500px) {
+.products h3 , .blogs h3{
+  font-size: 16px;
+}
+.blogs h1,.blogs h2 {
+text-align: center;
+}
+
+
+
+
+  .sideLinks a img{
+      width: 15px;
+  }
+
+  h2 img{
+    scale: .75;
+  }
+
+  h2:not(.quick-links h2, .social-links h2) {
+    
+      font-size: 7px !important;
+  }
+
+
+p,
+a,
+li {
+  font-size: 8px !important;
+}
+
+h1:not(.hero h1),
+h1 span:not(.hero h1 span) {
+  font-size: 15px !important;
+}
+
+.hero h1,
+.transforming h1,
+.aboutUs h1,
+.discover h1 {
+  max-width: 216px;
+}
+
+.hero {
+  margin-bottom: 25px;
+  .sideLinks a img {
+    width: 12px;
+}
+
+#scroll-icon{
+  width: 15px;
+}
+
+  a {
+    gap: 3px;
+  }
+  .logo img {
+    width: 80px;
+  }
+  .text {
+    font-size: 5px;
+  }
+
+  h1,
+  h1 span {
+    margin-bottom: 20px;
+    font-size: 19px;
+    max-width: 250px;
+  }
+  h3 {
+    font-size: 10px;
+  }
+  .appStoreLinks a {
+    padding: 2px 3px;
+  }
+
+  .sideLinks {
+    gap: 11px;
+  }
+  .appStoreLinks img {
+    width: 15px;
+  }
+
+  .sideSocialIcons img {
+    width: 14px;
+  }
+}
+.transforming {
+  margin-bottom: 25px;
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 8px;
+  }
+  .perks {
+    width: 24%;
+  }
+  .perk:nth-child(1) {
+    padding-top: 6px;
+  }
+  .perk {
+    padding: 5px 0px 0px 0px;
+  }
+}
+
+.aboutUs {
+  padding: 0px 0 60px;
+  margin-bottom: 25px;
+  .container .innovations {
+    gap: 30px;
+    margin: 15px 0 20px 0px;
+  }
+  .container h1 {
+    margin-bottom: 10px;
+  }
+  .featureCard {
+    align-items: center;
+    padding: 4px;
+    gap: 4px;
+  }
+  .icon-container{
+      padding: 5px;
+  }
+  .featureCard img {
+    text-align: center;
+    width: 13px;
+  }
+  .featureCard p {
+    text-align: center;
+    max-width: 80px;
+  }
+}
+.discover {
+  .row.solutions {
+    row-gap: 15px;
+  }
+  .Card svg {
+    width: 27px;
+  }
+}
+.joinnow {
+  ul {
+    padding-left: 0.75rem;
+  }
+  .Card h4{
+    font-size: 19px;
+  }
+  .Card h4 span, .Card h3{
+    font-size: 11px;
+  }
+ 
+}
+
+
+
+.ourFeatures {
+  .ev-container {
+    gap: 20px;
+  }
+  .Card-left-top {
+    margin-left: 40px;
+  }
+  .Card-right-top {
+    margin-right: 40px;
+  }
+  .car-image {
+    top: 50%;
+  }
+
+  .floatingcard-img-container img {
+    width: 25px;
+  }
+}
+
+.impact {
+  h3{
+      font-size: 21px;
+  }
+  .Card img {
+    width: 28px;
+  }
+}
+.products .container,
+.blogs .container {
+  width: 80%;
+}
+
+footer {
+  .newsletter {
+    top: 12%;
+  }
+
+  .newsletter h1 {
+    font-size: 11px !important;
+  }
+  .newsletter h2 {
+    font-size: 8px !important;
+  }
+  .quick-links ul {
+    gap: 2px;
+  }
+
+  .quick-links a,
+  .social-links a {
+    font-size: 9px !important;
+  }
+
+  .newsletter .input-mail input,
+  .newsletter .input-mail label {
+    padding: 7px;
+    font-size: 6px;
+  }
+}
+
+.footer-bottom-content h3 {
+  font-size: 9px;
+}
+}
+
+
+

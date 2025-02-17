@@ -85,29 +85,21 @@ button {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  transition: 0.3s all;
+  /* transition: 0.3s all; */
 }
 
 /* --------scroll effect------ */
 .hidden {
   opacity: 0;
   transition: all 1s;
-  transform: translatey(+100%);
+  transform: translatey(-100%);
 }
 
 .show {
   opacity: 1;
   transform: translatey(0%);
 }
-.aboutUs .featureCard:nth-child(1){
-  transition-delay: .2s;
-}
-.aboutUs .featureCard:nth-child(2){
-  transition-delay: .4s;
-}
-.aboutUs .featureCard:nth-child(3){
-  transition-delay: .6s;
-}
+
 /* ------------swiper---------- */
 .swiper {
   padding: 5px !important;
@@ -664,7 +656,6 @@ section.aboutUs div.container {
 .aboutUs .featureCard:hover {
   scale: 1.1;
 }
-
 
 .aboutUs .experienceImage {
   height: -moz-fit-content;
@@ -1440,4 +1431,667 @@ footer .social-links svg path {
 }
 .footer-bottom .terms-poicy {
   display: flex;
+}
+
+@media (min-width: 1280px) {
+  .container {
+    margin: auto;
+    max-width: 1280px;
+  }
+}
+@media (max-width: 1200px) {
+  .appStoreLinks {
+    font-size: 10px;
+  }
+  .appStoreLinks span {
+    font-size: 13px;
+  }
+  .aboutUs p {
+    font-size: 12px;
+  }
+  .nav .links {
+    gap: 5px;
+  }
+  .mobile-app .container {
+    gap: 20px;
+  }
+  .ourFeatures .car-image {
+    top: 52%;
+  }
+  .ourFeatures .Card-left-top {
+    margin-left: 50px;
+  }
+  .ourFeatures .Card-right-top {
+    margin-right: 50px;
+  }
+  .ourFeatures .floatingcard-img-container {
+    margin-bottom: 10px;
+  }
+  .products .Card h4 {
+    line-height: 0.75;
+    margin-bottom: 7px;
+  }
+  .products .Card {
+    padding: 12px;
+    gap: 13px;
+  }
+  .aboutUs .featureCard {
+    padding: 12px;
+  }
+  .impact .pros {
+    gap: 20px;
+  }
+  .impact .container {
+    gap: 30px;
+  }
+  footer #footer-logo {
+    width: 110px;
+  }
+  footer .newsletter {
+    top: 12%;
+    padding: 14px 9px;
+    gap: 20px;
+  }
+  footer .newsletter h1 {
+    font-size: 28px;
+  }
+  footer .quick-links ul {
+    padding-inline-start: 0px;
+    gap: 10px;
+  }
+  footer .social-links ul {
+    padding-inline-start: 0px;
+    gap: 5px;
+  }
+  footer .logo {
+    gap: 25px;
+  }
+  footer .quick-links h2 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .hero .appStoreLinks a, .appStoreLinks a {
+    gap: 10px;
+    padding: 7px;
+  }
+  .hero .appStoreLinks img, .appStoreLinks img {
+    width: 22px;
+  }
+  .hero #scroll-icon {
+    width: 22px;
+  }
+  .hero .sideLinks a img {
+    width: 17px;
+  }
+  .hero .sideLinks img.vertical-line {
+    display: none;
+  }
+  .hero #scroll-icon {
+    bottom: 6px;
+  }
+  .sideLinks {
+    gap: 7px;
+  }
+  .nav .signUp {
+    margin-right: 6px;
+  }
+  .nav #profile-icon {
+    margin-right: 6px;
+  }
+  .hero h1 {
+    max-width: 560px;
+  }
+  .hero h1,
+  .hero h1 span {
+    font-size: 40px;
+  }
+  .nav {
+    font-size: 12px;
+  }
+  .nav .icons img {
+    width: 15px;
+  }
+  .nav .logo img {
+    width: 125px;
+    /* height: 36px; */
+  }
+  .nav .signUp,
+  .nav .shopNow {
+    font-size: 14px;
+    padding: 12px 14px;
+  }
+  .aboutUs {
+    padding: 0 0 130px;
+  }
+  .aboutUs #experience-12k {
+    position: absolute;
+    right: 27%;
+  }
+  .aboutUs h2 {
+    justify-content: center;
+  }
+  .aboutUs .container h1 {
+    text-align: center;
+  }
+  .aboutUs .featureCard {
+    align-items: center;
+  }
+  .joinnow h3 {
+    font-size: 16px;
+  }
+  .joinnow h4 {
+    font-size: 30px;
+  }
+  .ourFeatures .ev-container {
+    gap: 95px;
+  }
+  .ourFeatures .Card img {
+    width: 45px;
+  }
+}
+@media (max-width: 800px) {
+  .blogs h1, .products h1 {
+    margin-bottom: 20px;
+  }
+  h2 img {
+    width: 20px;
+  }
+  .appStoreLinks a {
+    padding: 7px 8px;
+  }
+  .appStoreLinks img {
+    width: 20px;
+  }
+  .container {
+    max-width: 90%;
+  }
+  h2:not(.quick-links h2, .social-links h2) {
+    margin-bottom: 0px !important;
+    font-size: 10px !important;
+  }
+  p,
+  a {
+    font-size: 14px !important;
+  }
+  li {
+    font-size: 13px !important;
+  }
+  h1:not(.hero h1),
+  h1 span:not(.hero h1 span) {
+    font-size: 38px !important;
+  }
+  header {
+    padding: 5px;
+  }
+  .hero .logo img {
+    width: 80px;
+  }
+  .hero .text {
+    font-size: 9px;
+  }
+  .hero h1,
+  .hero h1 span {
+    max-width: 368px;
+    margin-bottom: 35px;
+    font-size: 28px;
+  }
+  .hero h3 {
+    font-size: 10px;
+  }
+  .hero .appStoreLinks a {
+    padding: 7px 8px;
+  }
+  .hero .appStoreLinks img {
+    width: 20px;
+  }
+  .hero .sideSocialIcons img {
+    width: 16px;
+  }
+  .hero #downloadJn {
+    margin-bottom: 11px;
+  }
+  .hero .goGreen {
+    margin-bottom: 0px;
+  }
+  .mobile {
+    display: block;
+  }
+  .offcanvas-btn {
+    display: flex;
+  }
+  .nav .links,
+  .nav .icons,
+  .nav .buttons {
+    display: none;
+  }
+  .nav .btn-close {
+    display: block;
+  }
+  .transforming {
+    margin-bottom: 40px;
+  }
+  .transforming h1 {
+    margin-bottom: 0px;
+  }
+  .transforming h3 {
+    font-size: 46px;
+  }
+  .transforming .perks {
+    flex-direction: column;
+    margin-inline: auto;
+    width: 50%;
+  }
+  .transforming .perk:nth-child(1) {
+    padding-top: 24px;
+  }
+  .transforming .perk {
+    padding: 22px 12px 0px 24px;
+  }
+  .discover h3 {
+    font-size: 11px;
+  }
+  .discover h1 {
+    margin-bottom: 20px;
+  }
+  .discover .Card {
+    gap: 11px;
+    padding: 7px;
+    align-items: center;
+  }
+  .discover .Card p {
+    text-align: center;
+  }
+  .discover .Card svg {
+    width: 35px;
+  }
+  .aboutUs {
+    padding-bottom: 90px;
+    margin-bottom: 30px;
+  }
+  .aboutUs #experience-12k {
+    position: absolute;
+    right: 28%;
+    width: 15%;
+  }
+  .aboutUs h1 {
+    margin-bottom: 17px;
+  }
+  .aboutUs h2 {
+    justify-content: center;
+  }
+  .aboutUs .container .innovations {
+    gap: 40px;
+    margin-top: 30px;
+  }
+  .aboutUs .featureCard {
+    gap: 12px;
+    padding: 10px;
+  }
+  .mobile-app h1,
+  .mobile-app h2, .mobile-app p {
+    text-align: center;
+  }
+  .mobile-app .container {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  .mobile-app .mobile-app-text {
+    display: flex;
+    flex-direction: column;
+    order: -1;
+  }
+  .mobile-app .appStoreLinks {
+    align-self: center;
+  }
+  .mobile-app li {
+    align-items: center;
+    line-height: 1;
+  }
+  .ourFeatures {
+    padding: 30px 0px;
+  }
+  .ourFeatures h1 {
+    margin-bottom: 17px;
+  }
+  .ourFeatures .ev-container {
+    gap: 0;
+  }
+  .ourFeatures .car-image {
+    top: 55%;
+  }
+  .ourFeatures .Card-left-top {
+    margin-left: 120px;
+  }
+  .ourFeatures .Card-right-top {
+    margin-right: 120px;
+  }
+  .ourFeatures .card-container-right .Card-bottom {
+    align-self: center;
+  }
+  .ourFeatures .Card h3 {
+    max-width: 120px;
+    font-size: 9px;
+  }
+  .ourFeatures .Card p {
+    max-width: 100px;
+    font-size: 7px !important;
+  }
+  .ourFeatures .floatingcard-img-container {
+    margin-bottom: 5px;
+  }
+  .ourFeatures .floatingcard-img-container img {
+    width: 32px;
+  }
+  .joinnow {
+    padding: 30px 40px;
+    margin-bottom: 30px;
+  }
+  .joinnow h1 {
+    margin-bottom: 25px;
+  }
+  .joinnow h5 {
+    text-align: center;
+    font-size: 11px;
+  }
+  .joinnow .row {
+    row-gap: 20px;
+  }
+  .joinnow h4 {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .joinnow .Card li {
+    justify-content: center;
+  }
+  .impact {
+    margin-bottom: 20px;
+  }
+  .impact h2 {
+    justify-content: center;
+  }
+  .impact h1, .impact p {
+    text-align: center;
+  }
+  .impact .pros {
+    gap: 10px;
+  }
+  .impact .container {
+    flex-direction: column;
+  }
+  .impact h3 {
+    text-align: center;
+  }
+  .impact #bigPara {
+    margin-bottom: 15px;
+  }
+  .products {
+    padding: 30px 0;
+  }
+  .products .container {
+    width: 56%;
+  }
+  .products h4, .products h3, .products p {
+    text-align: center;
+  }
+  .products .Card {
+    border-radius: 0 0 12px 12px;
+    padding: 12px;
+  }
+  .blogs {
+    padding-bottom: 75px;
+    padding-top: 30px;
+  }
+  .blogs h3, .blogs p {
+    text-align: center;
+  }
+  .blogs a {
+    justify-content: center;
+  }
+  .blogs .container {
+    width: 80%;
+  }
+  .blogs .Card {
+    border-radius: 12px;
+  }
+  footer {
+    padding: 40px 0 10px 0;
+  }
+  footer .newsletter {
+    top: 19%;
+    padding: 9px 13px;
+  }
+  footer .newsletter h1 {
+    font-size: 17px !important;
+  }
+  footer .footer-content {
+    flex-direction: column;
+    gap: 34px;
+  }
+  footer .newsletter .input-mail input,
+  footer .newsletter .input-mail label {
+    font-size: 10px;
+  }
+  footer .logo {
+    gap: 10px;
+    margin: auto;
+  }
+  footer .quick-links ul,
+  footer .social-links ul {
+    justify-content: space-around;
+  }
+  footer .quick-links h2,
+  footer .social-links h2 {
+    margin-bottom: 7px;
+  }
+  footer .quick-links a,
+  footer .social-links a {
+    font-size: 12px !important;
+  }
+  .footer-bottom {
+    padding: 10px 0;
+  }
+  .footer-bottom-content h3 .footer-bottom-content a {
+    line-height: 1;
+  }
+  .footer-bottom-content h3 {
+    font-size: 12px;
+  }
+  .footer-bottom-content a {
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 593px) {
+  .logo img{
+    width: 100px;
+  }
+  .container {
+    width: 97%;
+  }
+  .ourFeatures .Card-left-top {
+    margin-left: 60px;
+  }
+  .ourFeatures .Card-right-top {
+    margin-right: 60px;
+  }
+}
+@media (max-width: 500px) {
+  .products h3, .blogs h3 {
+    font-size: 16px;
+  }
+  .blogs h1, .blogs h2 {
+    text-align: center;
+  }
+  .sideLinks a img {
+    width: 15px;
+  }
+  h2 img {
+    scale: 0.75;
+  }
+  h2:not(.quick-links h2, .social-links h2) {
+    font-size: 7px !important;
+  }
+  p,
+  a,
+  li {
+    font-size: 8px !important;
+  }
+  h1:not(.hero h1),
+  h1 span:not(.hero h1 span) {
+    font-size: 15px !important;
+  }
+  .hero h1,
+  .transforming h1,
+  .aboutUs h1,
+  .discover h1 {
+    max-width: 216px;
+  }
+  .hero {
+    margin-bottom: 25px;
+  }
+  .hero .sideLinks a img {
+    width: 12px;
+  }
+  .hero #scroll-icon {
+    width: 15px;
+  }
+  .hero a {
+    gap: 3px;
+  }
+  .hero .logo img {
+    width: 80px;
+  }
+  .hero .text {
+    font-size: 5px;
+  }
+  .hero h1,
+  .hero h1 span {
+    margin-bottom: 20px;
+    font-size: 19px;
+    max-width: 250px;
+  }
+  .hero h3 {
+    font-size: 10px;
+  }
+  .hero .appStoreLinks a {
+    padding: 2px 3px;
+  }
+  .hero .sideLinks {
+    gap: 11px;
+  }
+  .hero .appStoreLinks img {
+    width: 15px;
+  }
+  .hero .sideSocialIcons img {
+    width: 14px;
+  }
+  .transforming {
+    margin-bottom: 25px;
+  }
+  .transforming h3 {
+    font-size: 20px;
+  }
+  .transforming h4 {
+    font-size: 8px;
+  }
+  .transforming .perks {
+    width: 24%;
+  }
+  .transforming .perk:nth-child(1) {
+    padding-top: 6px;
+  }
+  .transforming .perk {
+    padding: 5px 0px 0px 0px;
+  }
+  .aboutUs {
+    padding: 0px 0 60px;
+    margin-bottom: 25px;
+  }
+  .aboutUs .container .innovations {
+    gap: 30px;
+    margin: 15px 0 20px 0px;
+  }
+  .aboutUs .container h1 {
+    margin-bottom: 10px;
+  }
+  .aboutUs .featureCard {
+    align-items: center;
+    padding: 4px;
+    gap: 4px;
+  }
+  .aboutUs .icon-container {
+    padding: 5px;
+  }
+  .aboutUs .featureCard img {
+    text-align: center;
+    width: 13px;
+  }
+  .aboutUs .featureCard p {
+    text-align: center;
+    max-width: 80px;
+  }
+  .discover .row.solutions {
+    row-gap: 15px;
+  }
+  .discover .Card svg {
+    width: 27px;
+  }
+  .joinnow ul {
+    padding-left: 0.75rem;
+  }
+  .joinnow .Card h4 {
+    font-size: 19px;
+  }
+  .joinnow .Card h4 span, .joinnow .Card h3 {
+    font-size: 11px;
+  }
+  .ourFeatures .ev-container {
+    gap: 20px;
+  }
+  .ourFeatures .Card-left-top {
+    margin-left: 40px;
+  }
+  .ourFeatures .Card-right-top {
+    margin-right: 40px;
+  }
+  .ourFeatures .car-image {
+    top: 50%;
+  }
+  .ourFeatures .floatingcard-img-container img {
+    width: 25px;
+  }
+  .impact h3 {
+    font-size: 21px;
+  }
+  .impact .Card img {
+    width: 28px;
+  }
+  .products .container,
+  .blogs .container {
+    width: 80%;
+  }
+  footer .newsletter {
+    top: 12%;
+  }
+  footer .newsletter h1 {
+    font-size: 11px !important;
+  }
+  footer .newsletter h2 {
+    font-size: 8px !important;
+  }
+  footer .quick-links ul {
+    gap: 2px;
+  }
+  footer .quick-links a,
+  footer .social-links a {
+    font-size: 9px !important;
+  }
+  footer .newsletter .input-mail input,
+  footer .newsletter .input-mail label {
+    padding: 7px;
+    font-size: 6px;
+  }
+  .footer-bottom-content h3 {
+    font-size: 9px;
+  }
 }/*# sourceMappingURL=style.css.map */

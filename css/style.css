@@ -1901,6 +1901,9 @@ footer .social-links svg path {
     font-size: 10px !important;
   }
 }
+.add{
+  width: 100px;
+}
 @media (max-width: 593px) {
   .logo img{
     width: 100px;

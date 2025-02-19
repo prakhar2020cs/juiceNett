@@ -92,13 +92,15 @@ button {
 .hidden {
   opacity: 0;
   transition: all 1s;
-  transform: translatey(-100%);
+  transform: translatey(+100%);
 }
 
 .show {
   opacity: 1;
   transform: translatey(0%);
 }
+
+
 
 /* ------------swiper---------- */
 .swiper {
